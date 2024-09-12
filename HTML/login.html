@@ -17,208 +17,258 @@
 
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a class="active" href="login.html">Log In</a></li>
+               <li><a href="login.html">Log In</a></li>
+               <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                  </svg>
+                  <span>0</span>
+                  
+            </div>
             </ul>
         </div>
 
     </section>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="JS_files/login-form.js"></script>
-    </head>
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>\
+        <h1>On all products</h1>
+        <p>Save more with coupones & up to 70% off!</p>
+        <button>Shop Now</button>
+    </section>
 
-    <body style="background-image:url('Images/login-background.jpg');background-size: cover;">
-        <div class="container">
-            <div class="container form bg-white pt-5 mt-4 mb-3">
-                <!--change after click on sign up-->
-                <p class="text-center login-heading hide-me">login</p>
-                <div class="container hide-me">
-                    <div class="row">
-                        <div class="col mt-4 pl-5 pr-5">
-                            <p class="username">username</p>
-                            <div class="row mt-4">
-                                <div class="col-2 text-center pt-1 pr-0">
-                                    <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
-                                </div>
-                                <div class="col-10 pl-0">
-                                    <input type="text" placeholder="Type your username" class='input-1'>
-                                </div>
-                            </div>
-                            <hr class="hr-1">
-                            <div class="hide"></div>
-                        </div>
+    <section id="feature" class=".section-p1 ">
+        <div class="fe-box">
+            <img src="img/featers/f1.png" alt="">
+            <h6>Detroit Lions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/featers/f2.png" alt="">
+            <h6>Detroit Red Wings</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/featers/f3.png" alt="">
+            <h6>Detroit Pistons</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/featers/f4.png" alt="">
+            <h6>Detroit Tigers</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/featers/f5.png" alt="">
+            <h6>Mchigan</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/featers/f6.png" alt="">
+            <h6>Michigan State</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Your 2024 Lions Apparel</p>
+        <div class="pro-conatiner">
+            <div class="pro" onclick="window.location.href='singprod.html';">
+                <img src="/img/Products/16.avif" alt="">
+                <div class="Des">
+                    <span>Nike</span>
+                    <h5> Jared Goff Black Detroit Lions Jersey</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <div class="row">
-                        <div class="col mt-4 pl-5 pr-5">
-                            <p class="username">Password</p>
-                            <div class="row mt-4">
-                                <div class="col-2 text-center pt-1 pr-0">
-                                    <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
-                                </div>
-                                <div class="col-10 pl-0">
-                                    <input type="password" placeholder="Type your password" class="input-2">
-                                </div>
-                            </div>
-                            <hr class="hr-2">
-                            <div class="hide-1"></div>
-                        </div>
+                    <h4>$100</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='singprod2.html';">
+                <img src="/img/Products/97.avif" alt="">
+                <div class="Des">
+                    <span>Nike</span>
+                    <h5> Men's Aidan Hutchinson Blue Detroit Lions Game Jersey</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <div class="row">
-                        <div class="col text-right pr-5">
-                            <a href="#"><span class="forget-password">Forget password?</span></a>
-                        </div>
+                    <h4>$100</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='singprod3.html';">
+                <img src="img/Products/14.avif" alt="">
+                <div class="Des">
+                    <span>Nike</span>
+                    <h5> Men's Amon-Ra St. Brown White Detroit Lions Vapor F.U.S.E. Limited Jersey</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <div class="row mt-4">
-                        <div class="col pl-5 pr-5">
-                            <a href="login-ecommerce.html"><span
-                                    class="btn btn-block text-white login-button">login</span></a>
-                        </div>
+                    <h4>$120</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='singprod4.html';">
+                <img src="img/Products/0.avif" alt="">
+                <div class="Des">
+                    <span>Nike</span>
+                    <h5> Men's Terrion Arnold Blue Detroit Lions 2024 NFL Draft First Round Pick Player Game Jersey</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <div class="row mt-5">
-                        <div class="col text-center">
-                            <span
-                                style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or
-                                sign up using</span>
-                        </div>
+                    <h4>$100</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='singprod5.html';">
+                <img src="img/Products/87.avif" alt="">
+                <div class="Des">
+                    <span>Nike</span>
+                    <h5> Men's Sam LaPorta Black Detroit Lions T-Shirt</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <div class="row mt-5">
-                        <div class='col text-center'>
-                            <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                            <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
-                            <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
-                        </div>
+                    <h4>$19</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='singprod6.html';">
+                <img src="img/Products/sweat.avif" alt="">
+                <div class="Des">
+                    <span>Fanatics</span>
+                    <h5> Women's Blue/White Detroit Lions Backup Option Long Sleeve Hoodie</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='singprod7.html';">
+                <img src="img/Products/blue helm.avif" alt="">
+                <div class="Des">
+                    <span>Riddell</span>
+                    <h5>Detroit Lions 2024 On-Field Alternate Speed Flex Authentic Helmet</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$713</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro" onclick="window.location.href='singprod8.html';">
+                <img src="img/Products/helm.avif" alt="">
+                <div class="Des">
+                    <span>Riddell</span>
+                    <h5>Detroit Lions 2023 Alternate Speed Mini Helmet</h5>
+                    <div class="Star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
 
 
-                    <p class="text-center login-heading show-me">sign up</p>
-                    <div class="row show-me">
-                        <div class="col mt-4 pl-5 pr-5">
-                            <p class="username">First name</p>
-                            <div class="row mt-4">
-                                <div class="col-2 text-center pt-1 pr-0">
-                                    <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
-                                </div>
-                                <div class="col-10 pl-0">
-                                    <input type="text" placeholder="Type your username" class='first-name'>
-                                </div>
-                            </div>
-                            <hr class="hr-1">
-                            <div class="first-name-hide"></div>
-                        </div>
-                    </div>
-                    <div class="row show-me">
-                        <div class="col mt-4 pl-5 pr-5">
-                            <p class="username">Last name</p>
-                            <div class="row mt-4">
-                                <div class="col-2 text-center pt-1 pr-0">
-                                    <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
-                                </div>
-                                <div class="col-10 pl-0">
-                                    <input type="text" placeholder="Type your username" class='last-name'>
-                                </div>
-                            </div>
-                            <hr class="hr-1">
-                            <div class="last-name-hide"></div>
-                        </div>
-                    </div>
-                    <div class="row show-me">
-                        <div class="col mt-4 pl-5 pr-5">
-                            <p class="username">Email-id</p>
-                            <div class="row mt-4">
-                                <div class="col-2 text-center pt-1 pr-0">
-                                    <i class="fa fa-envelope-o" aria-hidden="true" id="user"></i>
-                                </div>
-                                <div class="col-10 pl-0">
-                                    <input type="text" placeholder="Type your username" class='email'>
-                                </div>
-                            </div>
-                            <hr class="hr-1">
-                            <div class="email-hide"></div>
-                        </div>
-                    </div>
-                    <div class="row show-me">
-                        <div class="col mt-4 pl-5 pr-5">
-                            <p class="username">Password</p>
-                            <div class="row mt-4">
-                                <div class="col-2 text-center pt-1 pr-0">
-                                    <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
-                                </div>
-                                <div class="col-10 pl-0">
-                                    <input type="password" placeholder="Type your password" class="password-signup">
-                                </div>
-                            </div>
-                            <hr class="hr-2">
-                            <div class="password-signup-hide"></div>
-                        </div>
-                    </div>
-                    <div class="row show-me">
-                        <div class="col mt-4 pl-5 pr-5">
-                            <p class="username">Confirm-password</p>
-                            <div class="row mt-4">
-                                <div class="col-2 text-center pt-1 pr-0">
-                                    <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
-                                </div>
-                                <div class="col-10 pl-0">
-                                    <input type="password" placeholder="Type your password"
-                                        class="confirm-password-signup">
-                                </div>
-                            </div>
-                            <hr class="hr-2">
-                            <div class="confirm-password-signup-hide"></div>
-                        </div>
-                    </div>
-                    <div class="row show-me">
-                        <div class="col pl-5">
-                            <a href="#"><span class="forget-password">I accept the <span
-                                        style="text-transform:capitalize;color:blue">terms of use</span>&
-                                    <span style="text-transform:capitalize;color:blue">privacy policy</span> </a>
-                        </div>
-                    </div>
-                    <div class="row mt-4 show-me">
-                        <div class="col pl-5 pr-5">
-                            <a href="login-ecomarce.html"><span class="btn btn-block text-white signup-button">sign
-                                    up</span></a>
-                        </div>
-                    </div>
-                    <div class="row mt-5 show-me">
-                        <div class="col text-center">
-                            <span
-                                style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or
-                                sign up using</span>
-                        </div>
-                    </div>
-                    <div class="row mt-5 show-me">
-                        <div class='col text-center'>
-                            <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                            <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
-                            <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
-                        </div>
-                    </div>
-                    <div class="row mt-5 show-me">
-                        <div class="col text-center">
-                            <span
-                                style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">already
-                                have an account</span>
-                        </div>
-                        <div class="col-12 text-center pt-3">
-                            <a href="#"><span class="login-page">login</span></a>
-                        </div>
-                    </div>
+
+
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="newstext">
+            <h4>Sign Up for Detroit Sports News</h4>
+            <p>Get E-mail updates about our latest <span>apparel deals.</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email Address">
+            <button class="normal">Sign Up</button>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo/TheDLocker.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Website Way, Detroit </p>
+            <p><Strong>Phone:</Strong> (313) 456-789</p>
+            <div class="Follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
                 </div>
             </div>
-    </body>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">View Cart</a>
+            <a href="#">My Wish List</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>Form App Store or Google Play</p>
+            <div class="row">
+                <img src="img/Pay/app stor.jpg" alt="">
+                <img src="img/Pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/Pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>©Mathew Wight Ecommerce Website</p>
+        </div>
+
+    </footer>
+    
+</body>
 
 </html>
