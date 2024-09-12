@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo/TheDLocker.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+    <section id="page-header">
+
+        <h2>#metrodetroit</h2>\
+
+        <p>Save more with coupones & up to 70% off!</p>
+
+    </section>
+
+    <section id="details" class="section-p1">
+        <div class="singel-pro-photos">
+            <img src="img/Products/CUNNINGHAM.webp" width="100% " id="MainPhoto" alt="">
+
+
+            <div class="small-photos-group">
+                <div class="small-photo-col">
+                    <img src="img/Products/CUNNINGHAM.webp" width="100%" class="small-photo" alt="">
+                </div>
+                <div class="small-photo-col">
+                    <img src="img/Products/cunningham 2.webp" width="100%" class="small-photo" alt="">
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="single-pro-details">
+            <h3>2023-24 Detroit Pistons Cade Cunningham City Edition Jersey
+            </h3>
+            <h2>$115</h2>
+            <select>
+                <option>Select Size</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque reiciendis vero incidunt dicta
+                    rerum autem quo amet aut quibusdam aliquid nesciunt debitis vitae, quam deserunt quia, tempore
+                    praesentium ratione cupiditate?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consectetur similique harum nesciunt
+                    officiis ipsam cumque, perferendis totam iste incidunt dignissimos magni praesentium corporis, sequi
+                    tenetur illo aspernatur sunt quos?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quas dicta optio perferendis officiis
+                    quo ratione eos deleniti incidunt. Tempore rem laborum dicta sed quia! Harum quibusdam tempore
+                    possimus delectus! </span>
+            </h4>
+        </div>
+    </section>
+
+
+    <section id="news">
+        <div class="newstext">
+            <h4>Sign Up for Detroit Sports News</h4>
+            <p>Get E-mail updates about our latest <span>apparel deals.</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your Email Address">
+            <button class="normal">Sign Up</button>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo/TheDLocker.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Website Way, Detroit </p>
+            <p><Strong>Phone:</Strong> (313) 456-789</p>
+            <div class="Follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">View Cart</a>
+            <a href="#">My Wish List</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>Form App Store or Google Play</p>
+            <div class="row">
+                <img src="img/Pay/app stor.jpg" alt="">
+                <img src="img/Pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/Pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>©Mathew Wight Ecommerce Website</p>
+        </div>
+
+    </footer>
+
+    <script>
+        var MainPhoto = document.getElementById("MainPhoto");
+        var smallphoto = document.getElementsByClassName("small-photo");
+
+        smallphoto[0].on = function () {
+            Mainpho.src = smallphoto[0].src;
+        }
+        smallphoto[1].on = function () {
+            Mainpho.src = smallphoto[1].src;
+        }
+        smallphoto[2].on = function () {
+            Mainpho.src = smallphoto[2].src;
+        }
+    </script>
+
+
+</body>
+
+</html>
